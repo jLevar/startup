@@ -4,7 +4,7 @@ Today I learned how to resolve merge conflicts in Github. I also learned some ne
 Such as how to link to another directory: [README](/README.md)
 And footnotes[^1]
 
-[!TIP]
-Continuing to refresh my knowledge and skills in markdown will lead to higher quality documentation for this project
+> [!TIP]
+> Continuing to refresh my knowledge and skills in markdown will lead to higher quality documentation for this project
 
 [^1]: Such as this footnote here.
