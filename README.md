@@ -2,16 +2,15 @@
 
 ## Specification Deliverable
 
-### Elevator pitch
+### Elevator Pitch
 
-Snail racing is the next big thing. With this snail racing application, you will be collaborating with your teammates from around the world to have your snails pull your team's crate to the end first. These races tend to take *hours*, so the opportunity is yours to swing the odds in your favor! With this application, you will be able to watch the race in real-time and take action to put your team in front.
+Snail racing is the next big thing. With this snail racing application, you will be collaborating with your teammates from around the world to have your snails pull your team's crate to the end first. These races tend to take *hours*, so the opportunity is yours to swing the odds in your favor! With this application, you will be able to watch the race in real-time and take action to put your team in front. 
+
+[Full Concept](early-concept/idea.md)
 
 ### Design
-
-- Login/Sign Up Screen
-- Snail Race Screen
-- Actions Screen (maybe on the first screen)
-- Stats/Profile screen? (maybe)
+![Mockup Pg. 1](early-concept/mock1.JPG)
+![Mockup Pg. 2](early-concept/mock2.JPG)
 
 ### Key features
 
