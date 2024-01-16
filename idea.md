@@ -16,13 +16,13 @@ Note: The lawnmower pays out a fixed amount of cash split evenly among all those
 However, the time of payment is randomized to prevent everyone from moving enemy snails off at the last second 
 
 The more snails pulling the crate, the faster it will go.
-However, you can use your money to:
+However, you can use your money to hire beetles that will:
 
 - Take the other teams' snails out of the race
 - Move the other teams' snails around to pull the crate backward
 - Move the other teams' snails to pull your crate forward 
-- Blow up a crate: eliminate a team from the race
-* Moving snails off the lawnmower comes at a much higher cost
+- Blow up a crate, eliminating a team from the race (EXPENSIVE)
+- NOTE: Moving snails off the lawnmower comes at a much higher cost
 
 
 Excised Ideas
