@@ -18,6 +18,7 @@ a select amount of the other teams' snails:
 - Off of the lawnmower
 
 **Gameplay and Balancing Notes**
+
 Moving snails off the lawnmower comes at a much higher cost
 The lawnmower pays out a fixed amount of cash split evenly among all those who are pulling it. 
 The time of payment is randomized to prevent everyone from moving enemy snails off at the last second 
