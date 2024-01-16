@@ -26,4 +26,4 @@ The time of payment is randomized to prevent everyone from moving enemy snails o
 Excised Ideas
 - Pickpocketing Spectators (If caught, your snail goes to jail)
 - Increase the speed of your team's snails
-- - Blow up a crate, eliminating a team from the race (EXPENSIVE)
+- Blow up a crate, eliminating a team from the race (EXPENSIVE)
