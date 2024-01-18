@@ -1,6 +1,6 @@
 # Supreme Snail Speedway
 
-There are four teams (Red, Blue, Green, Yellow). You are randomly assigned a team for each race.
+There are four teams (Red, Blue, Green, Yellow). You are randomly assigned a team for each race. 
 
 Each team has a crate they have to get to the finish line. Each team member has one snail that they can use to help
 pull the crate. Since they are snails, races take hours to complete. You as the player have multiple options for your
@@ -21,7 +21,8 @@ a select amount of the other teams' snails:
 
 - Moving snails off the lawnmower comes at a much higher cost.
 - The lawnmower pays out a fixed amount of cash split evenly among all those who are pulling it. 
-- The time of payment is randomized to prevent everyone from moving enemy snails off at the last second 
+- The time of payment is randomized to prevent everyone from moving enemy snails off at the last second
+- The winning team will get to split a cash prize!
 
 
 Excised Ideas
