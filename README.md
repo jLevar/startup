@@ -14,8 +14,11 @@ Snail racing is the next big thing. With this snail racing application, you will
 
 ### Key features
 - Display of current snail race standings
-- 
-
+- Collaboration with fellow users in a competitive setting
+- Poses users with strategic decisions to try and best help their team
+- Ability to interact with the webpage and participate in the game
+- Secure login over HTTPS
+- Data is persistently stored 
 
 ### Technologies
 
@@ -25,10 +28,10 @@ The required technologies will be implemented in the following ways:
 - **CSS** - Styling for the webpage to make it look presentable. 
 - **JavaScript** - Allow for interactive elements that allow users to log in, move their snail, and hire beetles.
 - **Service** - Backend will handle things such as:
-- - Calculating at what time each team will finish
+  - Calculating at what time each team will finish
   - Validating user requests to move snails or hire beetles
   - Updating the database to carry out user requests
   - Pulling from the database to show users the current state of the race
 - **DB/Login** - Will store user's credentials, including their balance, as well as the number of snails in each position, and the distance each team has left in the race.
-- **WebSocket** - Each client will regularly be given current information as to the state of the race.
+- **WebSocket** - Each client will be regularly updated with the current state of the race.
 - **React** - The HTML, CSS, and Javascript will be ported to and wrapped up in React.
