@@ -11,4 +11,8 @@ And footnotes[^1]
 
 ## 1/19/24
 AWS and EC2. I now have a server instance running in Virginia. It has an elastic IP address. To ssh into it I need to run the following command:
-`ssh -i ~/.ssh/startup-keypair.pem ubuntu@18.209.133.238`
+`ssh -i ~/.ssh/startup-keypair.pem ubuntu@snailspeedway.click`
+
+
+## 1/22/24
+Enabled HTTPS by modifying Caddyfile.
