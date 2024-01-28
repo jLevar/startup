@@ -16,3 +16,7 @@ AWS and EC2. I now have a server instance running in Virginia. It has an elastic
 
 ## 1/22/24
 Enabled HTTPS by modifying Caddyfile.
+
+## 1/28/24
+[Mozilla's HTML Element Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
