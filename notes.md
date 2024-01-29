@@ -20,3 +20,7 @@ Enabled HTTPS by modifying Caddyfile.
 ## 1/28/24
 [Mozilla's HTML Element Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
+
+## 1/29/24
+Example of deploying simon
+`./deployFiles.sh -k ~/.ssh/startup-keypair.pem -h snailspeedway.click -s simon`
