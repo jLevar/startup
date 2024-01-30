@@ -7,29 +7,24 @@
     <link rel="icon" href="snail.ico" />
   </head>
   <body>
-    <header>
-        <h1>Snail Speedway</h1>
-        <img id="logo" src="https://www.animalfunfacts.net/images/stories/specials/snail_racing/snailracing_l.jpg" \
-        alt="Racing snail logo" width="250"/>
-        <nav>
-            <menu>
-                <li><a href="index.html">Main Menu</a></li>
-                <li><a href="shop.html">Beetle Shop</a></li>
-                <li><a href="login.html">Login</a></li>
-            </menu>
-        </nav>
-        <hr />
+    <header name="logged-out">
+      <h1>Snail Speedway</h1>
+      <img id="logo" src="https://www.animalfunfacts.net/images/stories/specials/snail_racing/snailracing_l.jpg" \
+      alt="Racing snail logo" width="250"/>
+      <hr />
     </header>
 
     <main>
       <h2>Login:</h2>
-      <form method="GET" action="speedway.html">
+      <form method="post" action="speedway.html">
         <label for="user">Username/Email: </label>
         <input type="text" id="user" />
         <label for="password">Password: </label>
         <input type="password" id="password"/>
-      <button type="submit">Login</button>
+        <button type="submit">Login</button>
       </form>
+
+      <a href="signup.html">Don't have an account?</a>
     </main>
     
     <footer>
