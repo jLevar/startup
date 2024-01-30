@@ -26,22 +26,23 @@
     <main>
       <h2>Beetle Shop</h2>
       <h3>Your Balance: $17</h3>
-      <form method="post" action="speedway.html">
-
-        <select id="select" name="varSelect">
-          <option>option1</option>
-          <option selected>option2</option>
-          <option>option3</option>
+      <form method="GET" action="speedway.html">
+        Move
+        <input type="number" name="numSnails" id="number" min="1" max="999" step="1" />
+        snails from
+        <select id="select" name="teamFrom">
+          <option>Red</option>
+          <option>Blue</option>
+          <option>Green</option>
+          <option>Yellow</option>
         </select>
-
-        <select id="select" name="varSelect">
-          <option>option1</option>
-          <option selected>option2</option>
-          <option>option3</option>
+        to
+        <select id="select" name="teamTo">
+          <option>Red</option>
+          <option selected>Blue</option>
+          <option>Green</option>
+          <option>Yellow</option>
         </select>
-
-        <label for="number">Number: </label>
-          <input type="number" name="varNumber" id="number" min="1" max="10" step="1" />
 
         <h3>Cost: $0</h3>
 
