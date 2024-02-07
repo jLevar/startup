@@ -35,3 +35,14 @@ The required technologies will be implemented in the following ways:
 - **DB/Login** - Will store user's credentials, including their balance, as well as the number of snails in each position, and the distance each team has left in the race.
 - **WebSocket** - Each client will be regularly updated with the current state of the race.
 - **React** - The HTML, CSS, and Javascript will be ported to and wrapped up in React.
+
+### HTML
+The application is structured using HTML:
+
+    HTML pages - Two HTML page that represent the ability to login and vote.
+    Links - The login page automatically links to the voter page. The voter page contains links for every voting choice.
+    Text - Each of the voting choices is represented by a textual description.
+    Images - I couldn't figure out how to include an image and so I didn't do this. 😔
+    DB/Login - Input box and submit button for login. The voting choices represent data pulled from the database.
+    WebSocket - The count of voting results represent the tally of realtime votes.
+
