@@ -39,10 +39,11 @@ The required technologies will be implemented in the following ways:
 ### HTML
 The application is structured using HTML:
 
-    HTML pages - Two HTML page that represent the ability to login and vote.
-    Links - The login page automatically links to the voter page. The voter page contains links for every voting choice.
-    Text - Each of the voting choices is represented by a textual description.
-    Images - I couldn't figure out how to include an image and so I didn't do this. 😔
-    DB/Login - Input box and submit button for login. The voting choices represent data pulled from the database.
-    WebSocket - The count of voting results represent the tally of realtime votes.
+  - **Pages** - There are 5 pages. index (home page), login, signup, speedway, and shop.
+  - **Links** - The home page contains links to both the login and sign-up pages. The login and sign-up pages link to each other, and take you to speedway upon form submission. Both speedway and shop contain links to each other, as well as the home page.
+  - **Text** - Many elements are text, such as the team names, amount of snails, time left, the quote, etc.
+  - **Images** - The header includes an image of a snail on a track. 
+  - **DB/Login** - There in an input box for username/email and password that will authenticate from the database. The number of snails on each team, the time left for each team, as well as each users balance, is all stored in the database.
+  - **WebSocket** - The amount of snails in the race as well as the time remaining for each snail will be regularly updated as users changes influence the race.
+  - **3rd Party Service** - At the bottom of the raceway is an inspirational quote pulled from a 3rd party service, similar to Simon.
 
