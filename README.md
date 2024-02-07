@@ -36,7 +36,7 @@ The required technologies will be implemented in the following ways:
 - **WebSocket** - Each client will be regularly updated with the current state of the race.
 - **React** - The HTML, CSS, and Javascript will be ported to and wrapped up in React.
 
-### HTML
+## HTML
 The application is structured using HTML:
 
   - **Pages** - There are 5 pages. index (home page), login, signup, speedway, and shop.
