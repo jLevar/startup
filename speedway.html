@@ -5,17 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snail Speedway (HTML)</title>
     <link rel="icon" href="snail.ico" />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
-    <header name="logged-in">
+
+  <body class="bg-dark text-light">
+    <header class="container-fluid" name="logged-in">
       <h1>Snail Speedway</h1>
       <img id="logo" src="https://www.animalfunfacts.net/images/stories/specials/snail_racing/snailracing_l.jpg" \
       alt="Racing snail logo" width="250"/>
-      <nav>
-          <menu>
-              <li><a href="speedway.html">Speedway</a></li>
-              <li><a href="shop.html">Beetle Shop</a></li>
-              <li><a href="index.html">Log Out</a></li>
+      <nav class="navbar fixed-top navbar-dark">
+          <menu class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#">Speedway</a></li>
+              <li class="nav-item"><a class="nav-link" href="shop.html">Beetle Shop</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html">Log Out</a></li>
           </menu>
       </nav>
       <h2 id="username">Currently logged in as: jLevar23</h2>
