@@ -47,3 +47,14 @@ The application is structured using HTML:
   - **WebSocket** - The amount of snails in the race as well as the time remaining for each snail will be regularly updated as users changes influence the race.
   - **3rd Party Service** - At the bottom of the raceway is an inspirational quote pulled from a 3rd party service, similar to Simon.
 
+## CSS
+  The application is styled using CSS (and mostly Bootstrap).
+
+    Header, footer, and main content body - All styled to presentabilty.
+    Navigation elements - Styled with Bootstrap's navbar presets.
+    Responsive to window resizing - Still doesn't look great on mobile sized devices :/
+    Application elements - Spaced and colored asthetically.
+    Application text content - Properly spaced and consistent font. 
+    Application images - Racing snail featured in the header.
+
+
