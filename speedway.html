@@ -49,48 +49,70 @@
     </header>
     
     <main class="container-fluid text-light">
-        SPEEDWAY
-        <ul>
-          <label for="redProgress">Red: </label>
-          <progress id="redProgress" max="100" value="34"></progress>
-          <img src="crate.png" width="30">
-          <img src="snail.ico" width="40">
-          <h2 class="snailCount">9 snails</h2>
-          <h2 class="timeLeft">04:52:43</h2>
-        </ul>
-        <ul>
-          <label for="blueProgress">Blue: </label>
-          <progress id="blueProgress" max="100" value="5"></progress>
-          <img src="crate.png" width="30">
-          <img src="snail.ico" width="40">
-          <h2 class="snailCount">2 snails</h2>
-          <h2 class="timeLeft">06:44:12</h2>
-        </ul>
-        <ul>
-          <label for="greenProgress">Green: </label>
-          <progress id="greenProgress" max="100" value="60"></progress>
-          <img src="crate.png" width="30">
-          <img src="snail.ico" width="40">
-          <h2 class="snailCount">15 snails</h2>
-          <h2 class="timeLeft">02:10:39</spah2n>
-        </ul>
-        <ul>
-          <label for="yellowProgress">Yellow: </label>
-          <progress id="yellowProgress" max="100" value="81"></progress>
-          <img src="crate.png" width="30">
-          <img src="snail.ico" width="40">
-          <h2 class="snailCount">13 snails</h2>
-          <h2 class="timeLeft">01:22:56</h2>
-        </ul>
-        <ul>
-          <label for="lawnProgress">Lawncare: </label>
-          <progress id="lawnProgress" max="100" value="40"></progress>
-          <img src="lawnmower.png" width="40">
-          <h2 class="snailCount">33 snails</h2>
-          <h2 class="payout">$550</h2>
+        <ul class="my-4">
+          <h2>Red:</h2>
+          <div class="progress" style="height: 40px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 34%;" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100">
+              <h3 class="text-light m-auto">04:52:43 Left</h2>
+            </div>
+            <img src="crate.png" width="40">
+            <img src="snail.ico" width="40">
+            <h3 class="snailCount text-dark ms-auto my-auto mx-5">9 snails</h2>
+          </div>
         </ul>
 
-        <p>Some say that the slow snail wins the race<br>-MLK</p>
+        <ul class="my-4">
+          <h2>Blue:</h2>
+          <div class="progress" style="height: 40px;">
+            <div class="progress-bar bg-info my-progress" role="progressbar" style="width: 5%;" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+              06:44:12
+              <!-- <h3 class="text-light m-auto">06:44:12</h2> -->
+            </div>
+            <img src="crate.png" width="40">
+            <img src="snail.ico" width="40">
+            <h3 class="snailCount text-dark ms-auto my-auto mx-5">2 snails</h2>
+          </div>
+        </ul>
+
+        <ul class="my-4">
+          <h2>Green:</h2>
+          <div class="progress" style="height: 40px;">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+              <h3 class="text-light m-auto">02:10:39</h2>
+            </div>
+            <img src="crate.png" width="40">
+            <img src="snail.ico" width="40">
+            <h3 class="snailCount text-dark ms-auto my-auto mx-5">15 snails</h2>
+          </div>
+        </ul>
+
+        <ul class="my-4">
+          <h2>Yellow:</h2>
+          <div class="progress" style="height: 40px;">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 81%;" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100">
+              <h3 class="text-light m-auto">01:22:56</h2>
+            </div>
+            <img src="crate.png" width="40">
+            <img src="snail.ico" width="40">
+            <h3 class="snailCount text-dark ms-auto my-auto mx-5">13 snails</h2>
+          </div>
+        </ul>
+
+        <ul class="my-4">
+          <h2>Lawncare:</h2>
+          <div class="progress" style="height: 40px;">
+            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+              <h3 class="text-light m-auto">$550</h2>
+            </div>
+            <img src="lawnmower.png" width="60">
+            <h3 class="snailCount text-dark ms-auto my-auto mx-5">33 snails</h2>
+          </div>
+        </ul>
+
+        <div class="quote-box bg-secondary rounded d-inline-block p-2">
+          <p class="quote">Some say that the slow snail wins the race.</p>
+          <p class="author">Dr. Martin Luther King Jr.</p>
+        </div>
     </main>
     
     <footer class="fixed-bottom">

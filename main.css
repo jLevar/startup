@@ -50,5 +50,7 @@ menu .nav-item {
     column-gap: 10px;
 }
 
-
-  
+.my-progress {
+    width:100%;    
+    font-size: large;
+}
