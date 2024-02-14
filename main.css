@@ -5,19 +5,29 @@
 body {
     display: flex;
     flex-direction: column;
+    /* background-color: #0A3E27 !important; */
+    background-color: #395B50 !important;
+    color: #382633 !important;
 }
 
 header {
-    flex: 0 80px;   
+    background-color: #AA968A !important; 
 }
 
+/* main {
+    background-color: #347155;
+} */
+
 footer {
-    flex: 0 30px;
+    background-color: #AA968A !important;
 }
 
 nav {
     display: flex;
     flex-direction: row;
+    /* border-bottom: black !important;
+    border-color: black !important;
+    border-width: thick !important; */
 }
 
 menu {
