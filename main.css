@@ -14,9 +14,9 @@ header {
     background-color: #AA968A !important; 
 }
 
-/* main {
-    background-color: #347155;
-} */
+main {
+    color: white;
+}
 
 footer {
     background-color: #AA968A !important;
@@ -52,4 +52,6 @@ menu .nav-item {
     flex-direction: row;
     column-gap: 10px;
 }
+
+
   

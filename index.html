@@ -17,24 +17,52 @@
   </head>
 
   <body>
-    <header name="logged-out">
-        <h1>Snail Speedway</h1>
-        <img id="logo" src="https://www.animalfunfacts.net/images/stories/specials/snail_racing/snailracing_l.jpg" \
-        alt="Racing snail logo" width="250"/>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand border-bottom border-dark">
+        <div class="container-fluid">
+
+          <a class="navbar-brand sideby" href="index.html">
+            <img src="https://www.animalfunfacts.net/images/stories/specials/snail_racing/snailracing_l.jpg" width="50" height="50" alt="" class="d-inline-block align-top"/>
+            <h1>Snail Speedway</h1>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="speedway.html">Speedway</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Beetle Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Log In</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
     </header>
 
     <main>
       <h1>Welcome to Snail Speedway!</h1>
-      <h2>Log in or Create an Account to Start!</h2>
+      <h2>Log in to start!</h2>
       <a href="login.html">Login</a>
-      <a href="signup.html">Sign Up</a>
     </main>
     
-    <footer>
-        <span class="text-reset">Joshua LeVar</span>
-        <a href="https://github.com/jLevar/startup">GitHub</a>
+    <footer class="fixed-bottom">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="sideby">
+            <p>Joshua LeVar</p>
+            <a href="https://github.com/jLevar/startup">GitHub</a>
+          </div>
+        </div>
     </footer>
-    
   </body>
 </html>
 

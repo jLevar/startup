@@ -5,23 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snail Speedway (HTML)</title>
     <link rel="icon" href="snail.ico" />
-  </head>
-  <body>
-    <header name="logged-in">
-      <h1>Snail Speedway</h1>
-      <img id="logo" src="https://www.animalfunfacts.net/images/stories/specials/snail_racing/snailracing_l.jpg" \
-      alt="Racing snail logo" width="250"/>
-      <nav>
-          <menu>
-              <li><a href="speedway.html">Speedway</a></li>
-              <li><a href="shop.html">Beetle Shop</a></li>
-              <li><a href="index.html">Log Out</a></li>
-          </menu>
-      </nav>
-      <h2 id="username">Currently logged in as: jLevar23</h2>
-      <hr />
-    </header>
 
+    <link rel="stylesheet" href="main.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand border-bottom border-dark">
+        <div class="container-fluid">
+
+          <a class="navbar-brand sideby" href="index.html">
+            <img src="https://www.animalfunfacts.net/images/stories/specials/snail_racing/snailracing_l.jpg" width="50" height="50" alt="" class="d-inline-block align-top"/>
+            <h1>Snail Speedway</h1>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="speedway.html">Speedway</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Beetle Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Log Out</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header>
     
     <main>
       <h2>Beetle Shop</h2>
@@ -50,10 +75,14 @@
       </form>
     </main>
     
-    <footer>
-      <hr />
-      <p>Joshua LeVar</p>
-      <a href="https://github.com/jLevar/startup">GitHub</a>
+    <footer class="fixed-bottom">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="sideby">
+            <p>Joshua LeVar</p>
+            <a href="https://github.com/jLevar/startup">GitHub</a>
+          </div>
+        </div>
     </footer>
   </body>
 </html>
