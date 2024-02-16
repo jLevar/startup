@@ -4,7 +4,7 @@
 
 ### Elevator Pitch
 
-Snail racing is the next big thing. With this snail racing application, you will be collaborating with your teammates from around the world to have your snails pull your team's crate to the end first. These races tend to take *hours*, so the opportunity is yours to swing the odds in your favor! With this application, you will be able to watch the race in real-time and take action to put your team in front. 
+Snail racing is the next big thing. With this snail racing application, you will be collaborating with your teammates from around the world to have your snails pull your team's crate to the end first. These races tend to take *hours*, so the opportunity is yours to swing the odds in your favor! With this application, you will be able to watch the race in real time and take action to put your team in front. 
 
 [Full Concept](early-concept/idea.md)
 
@@ -49,12 +49,11 @@ The application is structured using HTML:
 
 ## CSS
   The application is styled using CSS (and mostly Bootstrap).
-
-    Header, footer, and main content body - All styled to presentabilty.
-    Navigation elements - Styled with Bootstrap's navbar presets.
-    Responsive to window resizing - Still doesn't look great on mobile sized devices :/
-    Application elements - Spaced and colored asthetically.
-    Application text content - Properly spaced and consistent font. 
-    Application images - Racing snail featured in the header.
+  - **Header, footer, and main content body** - All styled to presentabilty.
+  - **Navigation elements** - Styled with Bootstrap's navbar presets.
+  - **Responsive to window resizing** - Still doesn't look great on mobile-sized devices :/
+  - **Application elements** - Spaced and colored aesthetically.
+  - **Application text content** - Properly spaced and consistent font. 
+  - **Application images** - Racing snail featured in the header.
 
 
