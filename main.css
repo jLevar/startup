@@ -4,13 +4,13 @@
 
 body {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     background-color: #395B50 !important;
     color: #382633 !important;
 }
 
 header {
-    background-color: #AA968A !important; 
+    background-color: #AA968A !important;
 }
 
 main {
@@ -22,10 +22,7 @@ footer {
     background-color: #AA968A !important;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-}
+
 
 menu {
     flex: 1;
@@ -35,14 +32,18 @@ menu {
     padding: 0;
 }
 
+/* BOOTSTRAP */
+
 .navbar-brand {
     padding-left: 0.3em;
     border-bottom: solid rgb(182, 182, 182) thin;
 }
-  
+
 menu .nav-item {
     padding: 0 0.3em;
 }
+
+/* HOME BREW */
 
 .sideby {
     display: flex;
@@ -51,6 +52,61 @@ menu .nav-item {
 }
 
 .my-progress {
-    width:100%;    
+    width: 100%;
     font-size: large;
+}
+
+.navbar {
+    all: unset;
+    display: flex;
+    padding: 16px;
+    color: white;
+}
+
+.navbar-items {
+    all: unset;
+    display: flex;
+}
+
+.navbar-items--right {
+    margin-left: auto;
+}
+
+.navbar-link {
+    all: unset;
+    padding-inline-start: 8px;
+}
+
+.navbar-link-brand {
+    all: unset;
+}
+
+.navbar-link-toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-items {
+        flex-direction: column;
+        display: none;
+    }
+
+    .navbar-items--right {
+        margin-left: 0;
+    }
+
+    .navbar-toggle-show {
+        display: flex;
+    }
+
+    .navbar-link-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+    }
 }
