@@ -79,6 +79,8 @@ menu .nav-item {
 
 .navbar-link-brand {
     all: unset;
+    display: flex;
+    gap: 10px;
 }
 
 .navbar-link-toggle {
