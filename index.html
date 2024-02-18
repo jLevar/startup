@@ -14,38 +14,35 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/e64270d8ae.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <header class="sticky-top">
-      <nav class="navbar navbar-expand border-bottom border-dark">
-        <div class="container-fluid">
-
-          <a class="navbar-brand sideby" href="index.html">
-            <img src="https://www.animalfunfacts.net/images/stories/specials/snail_racing/snailracing_l.jpg" width="50" height="50" alt="" class="d-inline-block align-top"/>
-            <h1>Snail Speedway</h1>
-          </a>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="speedway.html">Speedway</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="shop.html">Beetle Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Log In</a>
-              </li>
-            </ul>
-          </div>
-
+      <div class="navbar">
+        <div class="navbar-link navbar-link-brand">
+          <img src="https://www.animalfunfacts.net/images/stories/specials/snail_racing/snailracing_l.jpg" width="50" height="50" alt="" class="d-inline-block align-top"/>
+          <h1 id="brand-text">Snail Speedway</h1>
         </div>
-      </nav>
+        <div class="navbar-link navbar-link-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <nav class="navbar-items">
+          <a class="navbar-link" href="speedway.html">
+            Speedway
+          </a>
+          <a class="navbar-link" href="shop.html">
+            Beetle Shop
+          </a>
+        </nav>
+  
+        <nav class="navbar-items navbar-items--right">
+          <a class="navbar-link" href="index.html">
+            Log Out
+          </a>
+        </nav>
+  
+      </div>
     </header>
 
     <main class="text-center mt-4 m-auto">

@@ -22,8 +22,6 @@ footer {
     background-color: #AA968A !important;
 }
 
-
-
 menu {
     flex: 1;
     display: flex;
@@ -60,12 +58,14 @@ menu .nav-item {
     all: unset;
     display: flex;
     padding: 16px;
-    color: white;
+    color: black;
+    align-items: center;
 }
 
 .navbar-items {
     all: unset;
     display: flex;
+    color: #404040;
 }
 
 .navbar-items--right {
@@ -74,27 +74,34 @@ menu .nav-item {
 
 .navbar-link {
     all: unset;
-    padding-inline-start: 8px;
+    padding-inline-start: 10px;
 }
 
 .navbar-link-brand {
     all: unset;
     display: flex;
     gap: 10px;
+    padding-inline-end: 10px;
 }
 
 .navbar-link-toggle {
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
     .navbar {
         flex-direction: column;
+    }
+
+    .navbar-link-brand {
+        margin-right: auto;
+        margin-bottom: 10px;
     }
 
     .navbar-items {
         flex-direction: column;
         display: none;
+        margin-right: auto;
     }
 
     .navbar-items--right {
@@ -110,5 +117,6 @@ menu .nav-item {
         display: initial;
         position: absolute;
         cursor: pointer;
+        font-size: 24px;
     }
 }
