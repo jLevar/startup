@@ -77,6 +77,12 @@ menu .nav-item {
     padding-inline-start: 10px;
 }
 
+.navbar-link:hover {
+    cursor: pointer;
+    color: white;
+}
+
+
 .navbar-link-brand {
     all: unset;
     display: flex;
