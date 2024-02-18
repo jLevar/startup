@@ -83,7 +83,7 @@ menu .nav-item {
 }
 
 
-.navbar-link-brand {
+.navbar-brand {
     all: unset;
     display: flex;
     gap: 10px;
@@ -99,7 +99,7 @@ menu .nav-item {
         flex-direction: column;
     }
 
-    .navbar-link-brand {
+    .navbar-brand {
         margin-right: auto;
         margin-bottom: 10px;
     }
