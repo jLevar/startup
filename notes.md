@@ -24,3 +24,6 @@ Enabled HTTPS by modifying Caddyfile.
 ## 1/29/24
 Example of deploying simon
 `./deployFiles.sh -k ~/.ssh/startup-keypair.pem -h snailspeedway.click -s simon`
+
+Example of deploying startup
+`./deployFiles.sh -k ~/.ssh/startup-keypair.pem -h snailspeedway.click -s startup`
